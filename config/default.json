@@ -1,0 +1,53 @@
+{
+    "application": {
+        "VERSION": "v1",
+        "APP_NAME": "Test",
+        "PORT": "3000"
+    },
+    "database": {
+        "HOST": "0.0.0.0",
+        "USERNAME": "",
+        "PASSWORD": "",
+        "PORT": "27017",
+        "NAME": "donations_17/12/2017"
+    },
+    "secret": {
+        "KEY": "donations_secretkeyfortokengenerator",
+        "REFRESHKEY": "donations_secretkeyforrefreshtokengenerator",
+        "EXPIRE_TIME": "120m"
+    },
+    "facebookAuth": {
+        "CLIENT_ID": "1950625845208220",
+        "CLIENT_SECRET": "61ca760003844aee478253b7f6ae5598",
+        "CALLBACK_URL": "http://192.168.1.53:3000/api/v1/auth/facebook/callback",
+        "SCOPES": ["id", "displayName", "picture.type(large)", "email", "first_name", "last_name"]
+    },
+    "googleAuth": {
+        "CLIENT_ID": "318369481647-v6cc2f5s04spjc10jsvf8c9pbfkpb8lc.apps.googleusercontent.com",
+        "CLIENT_SECRET": "61ca760003844aee478253b7f6ae5598",
+        "CALLBACK_URL": "http://192.168.1.53:3000/api/v1/auth/google/callback",
+        "SCOPES": ["id", "displayName", "picture.type(large)", "email", "first_name", "last_name"]
+    },
+    "strategies": {
+        "LOCAL": "local",
+        "BASIC": "basic",
+        "CLIENT_BASIC": "client-basic",
+        "BEARER": "bearer",
+        "FACEBOOK": "facebook",
+        "GOOGLE": "google"
+    },
+    "grantType": {
+        "FACEBOOK": "facebook",
+        "GOOGLE": "google",
+        "CUSTOM": "custom"
+    },
+    "userRoles": {
+        "ADMIN": "1",
+        "GENERALUSER": "2"
+    },
+    "donationsType": {
+        "SINGLEDONATION": "3",
+        "COMMUNITYDONATION": "4"
+    },
+    "baseurl": "http://localhost:3000/api/v1/"
+}
