@@ -5,11 +5,11 @@
         "PORT": "3000"
     },
     "database": {
-        "HOST": "ds053312.mongolab.com",
-        "USERNAME": "sldonations",
-        "PASSWORD": "sldonationsOrg",
-        "PORT": "53312",
-        "NAME": "donations_17/12/2017"
+        "HOST": "ds249787.mlab.com",
+        "USERNAME": "isuru.mwijesingha",
+        "PASSWORD": "donations@2018",
+        "PORT": "49787",
+        "NAME": "donationsorg"
     },
     "secret": {
         "KEY": "donations_secretkeyfortokengenerator",
