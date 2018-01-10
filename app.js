@@ -9,7 +9,7 @@ var express = require("express"),
     config = require('config'),
     app = express();
 
-mongoose.connect('mongodb://' + config.database.HOST + ':' + config.database.PORT + '/' + config.database.NAME);
+mongoose.connect('mongodb://' + config.database.USERNAME + ':' + config.database.PASSWORD + '@' + config.database.HOST + ':' + config.database.PORT + '/' + config.database.NAME);
 require('./models');
 
 app.use(function(req, res, next) {

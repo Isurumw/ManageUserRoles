@@ -5,10 +5,10 @@
         "PORT": "3000"
     },
     "database": {
-        "HOST": "0.0.0.0",
-        "USERNAME": "",
-        "PASSWORD": "",
-        "PORT": "27017",
+        "HOST": "ds053312.mongolab.com",
+        "USERNAME": "sldonations",
+        "PASSWORD": "sldonationsOrg",
+        "PORT": "53312",
         "NAME": "donations_17/12/2017"
     },
     "secret": {
