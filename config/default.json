@@ -6,8 +6,8 @@
     },
     "database": {
         "HOST": "ds249787.mlab.com",
-        "USERNAME": "isuru.mwijesingha",
-        "PASSWORD": "donations@2018",
+        "USERNAME": "sldonations",
+        "PASSWORD": "sldonationsOrg",
         "PORT": "49787",
         "NAME": "donationsorg"
     },
